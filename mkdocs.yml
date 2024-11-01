@@ -1,5 +1,7 @@
 site_name: "Fred H. Li"
 site_url: "https://fredhli.github.io"
+repo_url: https://github.com/fredhli/fredhli.github.io
+repo_name: Repository for this Website
 # site_url: 127.0.0.1:8000
 theme:
   name: "material"
@@ -64,5 +66,8 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/fredhli/
       name: LinkedIn
+
+
+
 # extra_css:
 #   - assets/extra.css
