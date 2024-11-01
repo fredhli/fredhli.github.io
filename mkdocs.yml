@@ -27,6 +27,7 @@ theme:
   favicon: assets/logos/github-mark.svg
   
   features:
+    - toc.integrate
     - navigation.footer
     - navigation.tabs
     - navigation.instant
