@@ -1,0 +1,8 @@
+site_name: "Fred Li's Personal Website"
+theme:
+  name: "material"
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - CV: cv.md
+  - Personal: personal.md
