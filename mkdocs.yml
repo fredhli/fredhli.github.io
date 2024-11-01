@@ -1,5 +1,5 @@
 site_name: "Fred H. Li"
-# site_url: "https://fredhli.github.io"
+site_url: "https://fredhli.github.io"
 # site_url: 127.0.0.1:8000
 theme:
   name: "material"
@@ -30,7 +30,7 @@ theme:
     - navigation.footer
     - navigation.tabs
     - navigation.instant
-    # - navigation.instant.prefetch
+    - navigation.instant.prefetch
 
 nav:
   - Home: index.md
