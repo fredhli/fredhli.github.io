@@ -38,7 +38,6 @@ theme:
 nav:
   - Home: index.md
   - Projects: projects.md
-  - Research Plots: generated/gallery
   - CV: cv.md
   - Personal: personal.md
 
@@ -51,9 +50,6 @@ markdown_extensions:
 plugins:
   - tags
   - mkdocs-pdf
-  - gallery:
-      examples_dirs: docs/examples          # path to your example scripts
-      gallery_dirs: docs/generated/gallery  # where to save generated gallery
   - search
   - git-revision-date-localized:
       enable_creation_date: true

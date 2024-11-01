@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# My Resume
+# **My Resume**
 ![My CV](<assets/resume.pdf>){ type=application/pdf style="min-height:120vh;width:85%" }
 
 <span style="font-size: smaller;">

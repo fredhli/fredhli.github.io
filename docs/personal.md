@@ -3,5 +3,5 @@ hide:
   - navigation
 ---
 
-# Photo Collection
+# **Photo Collection**
 
