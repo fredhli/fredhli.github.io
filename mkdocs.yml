@@ -6,24 +6,46 @@ theme:
   font: 
     text: Roboto
     code: Roboto Mono
-  palette:
-    primary: "blue grey"
-    accent: "blue"
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: "grey"
+      accent: "blue"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: "white"
+      accent: "blue"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  
   logo: assets/logos/github-mark-white.png
   favicon: assets/logos/github-mark.svg
+  
   features:
     - navigation.footer
     - navigation.tabs
     - navigation.instant
     # - navigation.instant.prefetch
+
 nav:
   - Home: index.md
   - Projects: projects.md
   - CV: cv.md
   - Personal: personal.md
+
+markdown_extensions:
+  - attr_list
+
 plugins:
   - search
   - tags
+  - mkdocs-pdf
+
 extra:
   social:
     - icon: fontawesome/brands/github
