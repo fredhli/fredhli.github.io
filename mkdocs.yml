@@ -1,8 +1,36 @@
-site_name: "Fred Li's Personal Website"
+site_name: "Fred H. Li"
+# site_url: "https://fredhli.github.io"
+# site_url: 127.0.0.1:8000
 theme:
   name: "material"
+  font: 
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    primary: "blue grey"
+    accent: "blue"
+  logo: assets/logos/github-mark-white.png
+  favicon: assets/logos/github-mark.svg
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.instant
+    # - navigation.instant.prefetch
 nav:
   - Home: index.md
   - Projects: projects.md
   - CV: cv.md
   - Personal: personal.md
+plugins:
+  - search
+  - tags
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fredhli
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/fredhli/
+      name: LinkedIn
+extra_css:
+  - assets/extra.css
