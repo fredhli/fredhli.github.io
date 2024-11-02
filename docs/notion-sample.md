@@ -1,3 +1,7 @@
+---
+hide:
+  - navigation
+---
 # **Sample Code 3**
 
 This Python script is a comprehensive automation toolkit that integrates with Notion API and web automation using Selenium. It includes utilities for PDF handling, text manipulation, and web scraping. Key features:
