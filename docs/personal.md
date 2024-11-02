@@ -20,12 +20,12 @@ hide:
 
   <figure style="text-align: center;">
     <img src="/assets/little-i/Photo%20May%2005%202024,%2020%2002%2011.jpg" alt="Photo 3" style="width: 100%; border-radius: 8px;">
-    <figcaption>PMay 05, 2024</figcaption>
+    <figcaption>May 05, 2024</figcaption>
   </figure>
 
   <figure style="text-align: center;">
     <img src="/assets/little-i/Photo%20Oct%2006%202024,%2011%2034%2035.jpg" alt="Photo 4" style="width: 100%; border-radius: 8px;">
-    <figcaption>Oct 06, 2024, 小i with 瓜子 (Gua-z).</figcaption>
+    <figcaption>Oct 06, 2024, 小i with 瓜子 (Gua-z)</figcaption>
   </figure>
 
 </div>

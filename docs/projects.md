@@ -3,7 +3,7 @@
 Here are my ongoing and completed projects:
 
 ## **Projects**
-### Jane Street Kaggle Price Prediction
+### Secret Price Prediction Prop Trading Strategy (Just Started)
 - Private GitHub Repository
 This project involves building a machine learning model to predict stock prices using historical data. The project leverages various statistical techniques and data preprocessing methods to enhance prediction accuracy.
 
@@ -12,8 +12,10 @@ This project involves building a machine learning model to predict stock prices 
 - This project focuses on creating an automatic cover letter generator using natural language processing techniques. The generator customizes cover letters based on user input and job descriptions to streamline the job application process.
 
 
-
 ### Hull-White Model Calibration
+- [GitHub Repository](https://github.com/fredhli/Hull-White-Caplet-Calibration)
+- This project focuses on the intricate task of calibrating the Hull-White model to at-the-money (ATM) caplet market implied volatilities. Through a meticulous process that involves both theoretical and simulation-based approaches, we aim to bridge the gap between model predictions and market observations. Our endeavor is not just an academic exercise but a deep dive into the dynamics of fixed income derivatives, exploring the nuances of the Hull-White model and its practical applications in today's financial markets.
+
 
 ## **Research Experience**
 ### The Casual Impact of Fiscal Shock
