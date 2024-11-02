@@ -3,9 +3,8 @@ hide:
   - navigation
 ---
 
-# **Personal**
+# **Cat Collection**
 
-## Cat Collection
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin-top: 20px;">
 
   <figure style="text-align: center;">
@@ -25,7 +24,7 @@ hide:
 
   <figure style="text-align: center;">
     <img src="/assets/little-i/Photo%20Oct%2006%202024,%2011%2034%2035.jpg" alt="Photo 4" style="width: 100%; border-radius: 8px;">
-    <figcaption>Oct 06, 2024, 小i with 瓜子 (Gua-z)</figcaption>
+    <figcaption>Oct 06, 2024, 小i with 瓜子 (Gua-zi)</figcaption>
   </figure>
 
 </div>

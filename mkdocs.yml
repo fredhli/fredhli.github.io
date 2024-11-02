@@ -5,7 +5,7 @@ repo_name: Repository for this Website
 theme:
   name: "material"
   font: 
-    text: Roboto
+    text: Open Sans
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -38,7 +38,7 @@ nav:
   - Projects: projects.md
   - Sample Codes: sample_codes.md
   - CV: cv.md
-  - Personal: personal.md
+  - Cat Collection: personal.md
 
 
 markdown_extensions:
