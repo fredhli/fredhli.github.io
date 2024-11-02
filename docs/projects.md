@@ -19,4 +19,15 @@ This project involves building a machine learning model to predict stock prices 
 ### The Casual Impact of Fiscal Shock
 
 ### Text-based Analysis using Novel Dataset
-![Image title](assets/plots/text_based_analysis.png){ align=left }
+
+We used a novel dataset of **U.S. congressional hearings**. After rigorously addressing *OCR reading errors* and [mapping database speakers](text-based-codes.md) to real-world congressmen, our next step is to train a **BERT topic model** to condense hundreds of thousands of speeches in the dataset into *500 topics*. 
+
+Following fine-tuning (including *embedding pretraining*, *vectorizer model*, *UMAP model*, *HDBSCAN model*, *c-TF-IDF model*, and *representation model*), this is an interactive map of the **top 20 most frequent topics**. Feel free to explore the data:
+
+<iframe src="/assets/plots/topic_500.html" width="100%" height="1000px" style="border:none;"></iframe>
+
+<!-- ![Image title](assets/plots/text_based_analysis.png){ align=left } -->
+
+```python
+
+```
