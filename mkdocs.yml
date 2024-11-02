@@ -36,6 +36,7 @@ theme:
 nav:
   - Home: index.md
   - Projects: projects.md
+  - Sample Codes: sample_codes.md
   - CV: cv.md
   - Personal: personal.md
 

@@ -2,7 +2,7 @@
 
 Here are my ongoing and completed projects:
 
-## Projects
+## **Projects**
 ### Jane Street Kaggle Price Prediction
 - Private GitHub Repository
 This project involves building a machine learning model to predict stock prices using historical data. The project leverages various statistical techniques and data preprocessing methods to enhance prediction accuracy.
@@ -15,7 +15,7 @@ This project involves building a machine learning model to predict stock prices 
 
 ### Hull-White Model Calibration
 
-## Research Experience
+## **Research Experience**
 ### The Casual Impact of Fiscal Shock
 
 ### Text-based Analysis using Novel Dataset
