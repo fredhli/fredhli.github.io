@@ -2,8 +2,140 @@
 hide:
   - navigation
 ---
+# **Personal**
+## **Photo Collection**
+<!-- ------------------------------------
+ROW 1
+------------------------------------ -->
 
-# **Cat Collection**
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin-top: 20px;">
+  <figure style="text-align: center;">
+    <img src="/assets/travel/Photo Nov 02 2024, 13 13 36.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <figcaption>Big Sur, California, USA</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/IMG_0406.png" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <figcaption>St. Louis, Missouri in Winter</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/IMG_3180.png" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <figcaption>Grand Canyon, Arizona, USA</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 3122.JPG" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <figcaption>Colombo, Sri Lanka</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 13344.JPG" alt="Photo 3" style="width: 100%; border-radius: 8px;">
+    <figcaption>Windermere, Lake District, UK</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 2119.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <figcaption>Wengen, Switzerland</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/Photo Dec 29 2022, 07 57 39.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <figcaption>Goreme, Turkey</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/Photo Dec 26 2022, 16 06 57.jpg" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <figcaption>Istanbul, Turkey</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/Photo May 30 2023, 14 49 02.jpg" alt="Photo 3" style="width: 100%; border-radius: 8px;">
+    <figcaption>Chiang Mai, Thailand</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/Photo Nov 02 2024, 13 06 54.jpg" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <figcaption>Border Restriction Area between Hong Kong and Shenzhen</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 12788.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <figcaption>Paris, France</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 9459.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <figcaption>Berlin, Germany</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/IMG_3251.png" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <figcaption>Hong Kong</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+      <video controls playsinline style="width: 100%; border-radius: 8px;">
+        <source src="/assets/travel/prague3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Prague, Czech</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 8492.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <figcaption>Paris, France</figcaption>
+  </figure>
+
+</div>
+
+<!-- ------------------------------------
+ROW 2
+------------------------------------ -->
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
+  
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 434.PNG" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <figcaption>Amman, Jordan</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 1714.JPG" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <figcaption>Budapest, Hungary</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 9142.PNG" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <figcaption>Lapland, Finland</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <video controls playsinline style="width: 100%; border-radius: 8px;">
+        <source src="/assets/travel/monks.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Inle Lake, Myanmar (Burma)</figcaption>
+  </figure>
+
+</div>
+
+<div style="margin-top: 20px;">
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/iPhone 12 9194.JPG" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <figcaption>Sommarøy, Norway</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/travel/paris21_9.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <figcaption>Seine River, Paris, France</figcaption>
+  </figure>
+
+</div>
+
+
+## **Cat Collection**
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin-top: 20px;">
 
@@ -25,6 +157,11 @@ hide:
   <figure style="text-align: center;">
     <img src="/assets/little-i/Photo%20Oct%2006%202024,%2011%2034%2035.jpg" alt="Photo 4" style="width: 100%; border-radius: 8px;">
     <figcaption>Oct 06, 2024, 小i with 瓜子 (Gua-zi)</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/little-i/IMG_2088.png" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <figcaption>Nov 01, 2024, 小i is teaching me how to build up my website and upload photos of him.</figcaption>
   </figure>
 
 </div>

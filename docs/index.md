@@ -15,7 +15,7 @@ Welcome to my personal website! I am **Fred**, currently pursuing a Master's deg
 
 My interest spans programming, machine learning, and traditional financial tools. I've previously co-managed portfolios up to US$200 million and am recently contributing to research in macroeconomic policy analysis.
 
-Feel free to explore my [**Projects**](projects.md), view my [**Resume**](cv.md), check my [**Sample Codes**](sample_codes.md), or learn more about my [**Personal Life**](personal.md) – including my introverted cat "小i" (Little-i)!
+Feel free to explore my [**Projects**](projects.md), view my [**Resume**](cv.md), check my [**Sample Codes**](sample_codes.md), or learn more about my [**Personal Life**](personal.md) – including my photography collection and my introverted cat "小i" (Little-i)!
 
 ## **News**
 - **November 2, 2024**: A new project is going on! But the repository is private for now.

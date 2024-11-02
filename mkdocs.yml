@@ -38,7 +38,7 @@ nav:
   - Projects: projects.md
   - Sample Codes: sample_codes.md
   - CV: cv.md
-  - Cat Collection: personal.md
+  - Personal: personal.md
 
 
 markdown_extensions:

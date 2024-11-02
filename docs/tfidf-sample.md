@@ -11,7 +11,7 @@ This Python code demonstrates text similarity matching using TF-IDF (*Term Frequ
 - **Efficient Blocking**: Strategic data partitioning for large datasets
 
 
-## **Codes**
+## **Code**
 ```python
 import os
 import re

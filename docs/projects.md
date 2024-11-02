@@ -27,8 +27,10 @@ Following fine-tuning (including *embedding pretraining*, *vectorizer model*, *U
 
 <iframe src="/assets/plots/topic_500.html" width="100%" height="1000px" style="border:none;"></iframe>
 
+
 #### Plot 2
 Here is another plot which depicits the frequency of how congressmen mentions a certain redacted label over time, labelled by AI-Large Language Models (LLMs). 
+
 ![Image title](assets/plots/text_based_plot.png){ align=left }
 
 ### The Casual Impact of Fiscal Shock
