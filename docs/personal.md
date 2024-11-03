@@ -152,7 +152,7 @@ ROW 2
   </figure>
   <figure>
     <img src="/assets/travel/iPhone 12 342.JPG" alt="Jerusalem">
-    <figcaption>Western Wall, Jerusalem, two days before the United States moved its embassy from Tel Aviv to Jerusalem</figcaption>
+    <figcaption>Western Wall, Jerusalem, two days before the United States moved Israel embassy from Tel Aviv to Jerusalem</figcaption>
   </figure>
 </div>
 
@@ -167,7 +167,6 @@ ROW 2
     <img src="/assets/travel/iPhone 12 9203.JPG" alt="Tromso" style="width: 100%; border-radius: 8px;">
     <figcaption>Tromsø, Norway</figcaption>
   </figure>
-
 
 </div>
 
