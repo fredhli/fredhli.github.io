@@ -7,24 +7,12 @@ theme:
   font: 
     text: Open Sans
   palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      primary: "grey"
-      accent: "blue"
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+    primary: "white"
+    accent: "blue"
 
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: "white"
-      accent: "blue"
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-  
-  logo: assets/logos/github-mark-white.png
-  favicon: assets/logos/github-mark.svg
+  # logo: assets/logos/github-mark-white.png
+  logo: assets/logos/github.svg
+  favicon: assets/logos/github_file.svg
   
   features:
     - toc.integrate
@@ -32,6 +20,7 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.instant.prefetch
+    - navigation.instant.process
 
 nav:
   - Home: index.md
@@ -46,7 +35,9 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
   - pymdownx.highlight
-  - pymdownx.superfences  # 这个扩展可以更好地支持代码块显示
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
 
 plugins:
   - include-markdown
@@ -56,6 +47,9 @@ plugins:
       enable_creation_date: true
   - mkdocs-pdf
 
+extra_javascript:
+  - main.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -64,8 +58,11 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/fredhli/
       name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:<fredhli@outlook.com>
 
+copyright: Copyright &copy; 2024 Fred H. Li
 
-
-# extra_css:
-#   - assets/extra.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
