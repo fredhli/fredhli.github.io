@@ -29,7 +29,8 @@ $$
 $$
 
 ### Plot
-The calibration resulted in an around 7% loss in function value.
+The model results in around 7% in overall function value loss, but the model's performance **improves with longer maturities**. This indicates that our calibration is particularly **effective for pricing long-term interest rate derivatives**.
+
 
 ![Hull-White Plot](assets/plots/hw_plot.png){ align=left }
 
