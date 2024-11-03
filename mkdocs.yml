@@ -48,9 +48,6 @@ plugins:
       enable_creation_date: true
   - mkdocs-pdf
 
-extra_javascript:
-  - main.js
-
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -65,5 +62,6 @@ extra:
 copyright: Copyright &copy; 2024 Fred H. Li
 
 extra_javascript:
+  - main.js
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
