@@ -52,7 +52,7 @@ Covariance Type:            nonrobust
 ===============================================================================
                   coef    std err          t      P>|t|      [0.025      0.975]
 -------------------------------------------------------------------------------
-const           0.0448      0.020      2.254    0.027*       0.005       0.084
+const           0.0448      0.020      2.254     0.027*       0.005       0.084
 q1_ratio        0.1729      0.047      3.643   0.001***       0.078       0.268
 gbpusd_o_d     -3.5446      0.638     -5.554   0.000***      -4.818      -2.272
 interaction    -6.6575      1.594     -4.177   0.000***      -9.837      -3.478
@@ -64,6 +64,6 @@ Kurtosis:                       3.021   Cond. No.                         114.
 ==============================================================================
 ```
 
-The regression results indicate a **significant positive relationship** between `q1_ratio` and the change in UK ten-year government bond yields (`10.0_n_d`). Specifically, a higher `q1_ratio` — implying **stronger public expectation of an increasing budget deficit** — is associated with an **increase in bond yields**. The coefficient for `q1_ratio` is positive and statistically significant at the **0.1% level**. Additionally, the negative coefficients for the change in the GBP/USD exchange rate (`gbpusd_o_d`) and the interaction term suggest that currency appreciation and its interplay with budget expectations also influence bond yields.
+The regression results indicate a **significant positive relationship** between `q1_ratio` and the change in UK ten-year government bond yields (`10.0_n_d`). Specifically, a higher `q1_ratio` — implying **stronger public expectation of an increasing budget deficit** — is associated with an **increase in bond yields**. The coefficient for `q1_ratio` is positive and statistically significant at the **0.1% level**. Additionally, the negative coefficients for the change in the GBP/USD exchange rate (`gbpusd_o_d`) and the interaction term suggest that currency appreciation and its interplay with budget expectations also influence bond yields. The regression model explains approximately **47% of the variance** (`R2 score`) in the change in bond yields, as indicated by the R-squared value.
 
 These preliminary findings support the hypothesis that anticipated fiscal expansions lead investors to demand higher yields on government bonds, reflecting the pricing-in of budget deficit expectations into asset prices.
