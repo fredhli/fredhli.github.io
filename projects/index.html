@@ -432,6 +432,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#hull-white-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hull-White Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#methodology" class="md-nav__link">
     <span class="md-ellipsis">
       Methodology
@@ -447,6 +456,16 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    <span class="md-ellipsis">
+      Result
+    </span>
+  </a>
+  
 </li>
         
           <li class="md-nav__item">
@@ -455,6 +474,11 @@
       Plot
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -612,21 +636,26 @@
 <h2 id="hull-white-model-calibration"><a href="https://github.com/fredhli/Hull-White-Caplet-Calibration"><strong>Hull-White Model Calibration</strong></a></h2>
 <h3 id="description">Description</h3>
 <p>This project focuses on the intricate task of calibrating the <strong>Hull-White model</strong> to at-the-money (ATM) caplet market implied volatilities. Through a meticulous process involving both theoretical and simulation-based approaches, we bridged the gap between model predictions and market observations. This project delves into the dynamics of fixed income derivatives, exploring the market movements of the Hull-White model and its practical applications in today's financial markets.</p>
+<h3 id="hull-white-model">Hull-White Model</h3>
+<div class="arithmatex">\[
+\begin{aligned}
+&amp;dr(t) = \theta(t) - a \cdot r(t) \, dt + \sigma \cdot dW(t) \\ \\
+&amp;\text{where,} \\
+&amp;\theta(t) = \frac{\partial f(0,t)}{\partial t} + a \cdot f(0,t) + \frac{\sigma^2}{2 a} \left(1 - e^{-2  a t}\right) \\ \\
+\end{aligned}
+\]</div>
 <h3 id="methodology">Methodology</h3>
 <p>To increase the sample size, we combined different caplets to obtain 120 caps from 120 caplets, spanning various maturities, for the calibration process. The calibration involved solving an optimization problem where the objective function was to minimize the sum of squared differences between the model-implied volatilities and the observed market volatilities. Additionally, we employed <strong>Monte-Carlo Simulation</strong> methods to make our pricing model accurate, and to ensuring robustness and reliability of the results.</p>
 <p><img align="left" alt="HW_MC" src="../assets/plots/hw_mc.png"></p>
 <h3 id="output">Output</h3>
-<p>Our calibration results for Hull-White short-rate model:</p>
-<div class="arithmatex">\[
-\begin{aligned}
-&amp;dr(t) = \theta(t) - 0.01335 \cdot r(t) \, dt + 0.02013 \cdot dW(t) \\ \\
-&amp;\text{where,} \\
-&amp;\theta(t) = \frac{\partial f(0,t)}{\partial t} + 0.01335 \cdot f(0,t) + \frac{\sigma^2}{2 0.01335} \left(1 - e^{-2 \times 0.01335 t}\right) \\
-&amp;r(0) = 0.04815
-\end{aligned}
-\]</div>
-<h3 id="plot">Plot</h3>
-<p>The model results in around 7% in overall function value loss, but the model's performance <strong>improves with longer maturities</strong>. This indicates that our calibration is particularly <strong>effective for pricing long-term interest rate derivatives</strong>.</p>
+<h4 id="result">Result</h4>
+<p>Our calibration results:</p>
+<div class="highlight"><pre><span></span><code><span class="n">output_params</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.01335</span>      <span class="c1"># a</span>
+<span class="n">output_params</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.02013</span>      <span class="c1"># sigma</span>
+<span class="n">output_params</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.04815</span>      <span class="c1"># r_0</span>
+</code></pre></div>
+<h4 id="plot">Plot</h4>
+<p>The model results in around 11.3% in overall function value loss, but the model's performance <strong>improves with longer maturities</strong>. This indicates that our calibration is particularly <strong>effective for pricing long-term interest rate derivatives</strong>.</p>
 <p><img align="left" alt="Hull-White Plot" src="../assets/plots/hw_plot.png"></p>
 <h2 id="automatic-cover-letter-generator"><a href="https://github.com/fredhli/Auto_CL_Generator"><strong>Automatic Cover Letter Generator</strong></a></h2>
 <p>This project focuses on creating an automatic cover letter generator using natural language processing techniques.</p>
