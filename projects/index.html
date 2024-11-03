@@ -680,7 +680,7 @@
 <li><strong>Centralized Storage of Application History</strong>: Keep track of all your job applications and generated cover letters in one place for easy reference and follow-up.</li>
 </ul>
 <h2 id="research-experience"><strong>Research Experience</strong></h2>
-<h3 id="text-based-analysis-using-novel-dataset">Text-based Analysis using Novel Dataset</h3>
+<h3 id="text-based-analysis-using-novel-dataset"><strong>Text-based Analysis using Novel Dataset</strong></h3>
 <p>We used a novel dataset of <strong>U.S. congressional hearings</strong>. After rigorously addressing <em>OCR reading errors</em> and <a href="../text-based-codes/">mapping database speakers</a> to real-world congressmen, our next step is to train a <strong>BERT topic model</strong> to condense hundreds of thousands of speeches in the dataset into <em>500 topics</em>. </p>
 <h4 id="plot-1">Plot 1</h4>
 <p>Following fine-tuning (including <em>embedding pretraining</em>, <em>vectorizer model</em>, <em>UMAP model</em>, <em>HDBSCAN model</em>, <em>c-TF-IDF model</em>, and <em>representation model</em>), this is an interactive map of the <strong>top 20 most frequent topics</strong>. Feel free to explore the data:</p>
@@ -689,7 +689,7 @@
 <h4 id="plot-2">Plot 2</h4>
 <p>Here is another plot which depicits the frequency of how congressmen mentions a certain redacted label over time, labelled by AI-Large Language Models (LLMs). </p>
 <p><img align="left" alt="Text-based Frequency" src="../assets/plots/text_based_plot.png"></p>
-<h3 id="the-casual-impact-of-fiscal-shock">The Casual Impact of Fiscal Shock</h3>
+<h3 id="the-casual-impact-of-fiscal-shock"><strong>The Casual Impact of Fiscal Shock</strong></h3>
 <p>This research investigates how government deficits and public debt levels influence asset prices and macroeconomic conditions. Using event study methodology, we analyze periods where UK budget deficit news emerged independently of economic conditions, addressing the omitted variable bias challenge (OVB). We employ <strong>Large Language Models (LLMs)</strong> to extract <strong>budget surprises</strong> from news data and examine their impact on financial markets.</p>
 <p>We obtained <code>q1_ratio</code> by utilizing an AI LLMs to assess news articles related to budget announcements. For each article, the model answered two specific questions about whether the news would cause the budget deficit to increase or decrease. The responses were categorized as 'up', 'down', or 'unsure'. The <code>q1_ratio</code> is calculated as a normalized measure using the proportions of 'up' and 'down' responses:</p>
 <div class="arithmatex">\[\text{q1_ratio} = \frac{\text{q1_up} - \text{q1_down}}{\text{q1_up} + \text{q1_down}}\]</div>
