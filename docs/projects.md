@@ -31,13 +31,13 @@ To increase the sample size, we combined different caplets to obtain 120 caps fr
 Our calibration results:
 
 ```python
-output_params[0] = 0.01335      # a
-output_params[1] = 0.02013      # sigma
-output_params[2] = 0.04815      # r_0
+output_params[0] = 0.81246      # a
+output_params[1] = 0.09130      # sigma
+output_params[2] = 0.03711      # r_0
 ```
 
 #### Plot
-The model results in around 11.3% in overall function value loss, but the model's performance **improves with longer maturities**. This indicates that our calibration is particularly **effective for pricing long-term interest rate derivatives**.
+The model results in around 12.7% in overall function value loss, but the model's performance **improves with longer maturities**. This indicates that our calibration is particularly **effective for pricing long-term interest rate derivatives**.
 
 ![Hull-White Plot](assets/plots/hw_plot.png){ align=left }
 
