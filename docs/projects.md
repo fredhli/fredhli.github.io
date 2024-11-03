@@ -53,7 +53,7 @@ This project automates the process of using AI API to generate well-organized, h
 
 
 ## **Research Experience**
-### Text-based Analysis using Novel Dataset
+### **Text-based Analysis using Novel Dataset**
 
 We used a novel dataset of **U.S. congressional hearings**. After rigorously addressing *OCR reading errors* and [mapping database speakers](text-based-codes.md) to real-world congressmen, our next step is to train a **BERT topic model** to condense hundreds of thousands of speeches in the dataset into *500 topics*. 
 
@@ -67,7 +67,8 @@ Here is another plot which depicits the frequency of how congressmen mentions a 
 
 ![Text-based Frequency](assets/plots/text_based_plot.png){ align=left }
 
-### The Casual Impact of Fiscal Shock
+
+### **The Casual Impact of Fiscal Shock**
 
 This research investigates how government deficits and public debt levels influence asset prices and macroeconomic conditions. Using event study methodology, we analyze periods where UK budget deficit news emerged independently of economic conditions, addressing the omitted variable bias challenge (OVB). We employ **Large Language Models (LLMs)** to extract **budget surprises** from news data and examine their impact on financial markets.
 
