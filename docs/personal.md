@@ -8,7 +8,7 @@ hide:
 <div style="margin-top: 20px;">
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/paris21_9.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/paris21_9.jpg" alt="Paris 1" style="width: 100%; border-radius: 8px;">
     <figcaption>Seine River, Paris, France</figcaption>
 
 </div>
@@ -20,78 +20,78 @@ ROW 1
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; margin-top: 20px;">
   <figure style="text-align: center;">
-    <img src="/assets/travel/Photo Nov 02 2024, 13 13 36.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/Photo Nov 02 2024, 13 13 36.jpg" alt="Big Sur" style="width: 100%; border-radius: 8px;">
     <figcaption>Big Sur, California, USA</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/IMG_0406.png" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/IMG_0406.png" alt="St. Louis" style="width: 100%; border-radius: 8px;">
     <figcaption>St. Louis, Missouri, USA in Winter</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/IMG_3180.png" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/IMG_3180.png" alt="Grand Canyon" style="width: 100%; border-radius: 8px;">
     <figcaption>Grand Canyon, Arizona, USA</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 3122.JPG" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 3122.JPG" alt="Sri Lanks" style="width: 100%; border-radius: 8px;">
     <figcaption>Train from Kandy to Colombo, Sri Lanka</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 13344.JPG" alt="Photo 3" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 13344.JPG" alt="Lake District" style="width: 100%; border-radius: 8px;">
     <figcaption>Windermere, Lake District, UK</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 1948.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 1948.JPG" alt="Rigi" style="width: 100%; border-radius: 8px;">
     <figcaption>Küssnacht am Rigi, Switzerland</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/Photo Dec 29 2022, 07 57 39.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/Photo Dec 29 2022, 07 57 39.jpg" alt="Goreme" style="width: 100%; border-radius: 8px;">
     <figcaption>Göreme, Türkiye</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/Photo Dec 26 2022, 16 06 57.jpg" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/Photo Dec 26 2022, 16 06 57.jpg" alt="Istanbul" style="width: 100%; border-radius: 8px;">
     <figcaption>Istanbul, Türkiye</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/Photo May 30 2023, 14 49 02.jpg" alt="Photo 3" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/Photo May 30 2023, 14 49 02.jpg" alt="Chiang Mai" style="width: 100%; border-radius: 8px;">
     <figcaption>Chiang Mai, Thailand</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/Photo Nov 02 2024, 13 06 54.jpg" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/Photo Nov 02 2024, 13 06 54.jpg" alt="Shenzhen" style="width: 100%; border-radius: 8px;">
     <figcaption>Border Restriction Area between Hong Kong and Shenzhen</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 12788.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 12788.JPG" alt="Paris 2" style="width: 100%; border-radius: 8px;">
     <figcaption>Paris, France</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 9459.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 9459.JPG" alt="Berlin" style="width: 100%; border-radius: 8px;">
     <figcaption>Berlin, Germany</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/IMG_3251.png" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/IMG_3251.png" alt="HK" style="width: 100%; border-radius: 8px;">
     <figcaption>Hong Kong</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 1499 2.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 1499 2.JPG" alt="Prague" style="width: 100%; border-radius: 8px;">
     <figcaption>Prague, Czech Republic</figcaption>
   </figure>
 
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 8492.JPG" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 8492.JPG" alt="Paris3" style="width: 100%; border-radius: 8px;">
     <figcaption>Paris, France</figcaption>
   </figure>
 
@@ -101,57 +101,72 @@ ROW 1
 ROW 2
 ------------------------------------ -->
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
-  
-  <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 434.PNG" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .gallery figure {
+    text-align: center;
+  }
+
+  .gallery img, .gallery video {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  /* 媒体查询 */
+  @media (max-width: 768px) {
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="gallery">
+  <figure>
+    <img src="/assets/travel/iPhone 12 434.PNG" alt="Amman">
     <figcaption>Amman, Jordan</figcaption>
   </figure>
-
-
-
-  <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 1714.JPG" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+  <figure>
+    <img src="/assets/travel/iPhone 12 1714.JPG" alt="Budapest">
     <figcaption>Budapest, Hungary</figcaption>
   </figure>
-
-  <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 9142.PNG" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+  <figure>
+    <img src="/assets/travel/iPhone 12 9142.PNG" alt="Northern Lights">
     <figcaption>Lapland, Finland</figcaption>
   </figure>
-
-  <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 2119.JPG" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+  <figure>
+    <img src="/assets/travel/iPhone 12 2119.JPG" alt="Wengen">
     <figcaption>Wengen, Switzerland</figcaption>
   </figure>
-
-  <figure style="text-align: center;">
-    <video controls playsinline style="width: 100%; border-radius: 8px;">
-        <source src="/assets/travel/monks.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <figcaption>Children at a monastery in Inle Lake, Myanmar (Burma)</figcaption>
+  <figure>
+    <video controls playsinline>
+      <source src="/assets/travel/monks.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Children at a monastery in Inle Lake, Myanmar (Burma)</figcaption>
   </figure>
-
-  <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 342.JPG" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+  <figure>
+    <img src="/assets/travel/iPhone 12 342.JPG" alt="Jerusalem">
     <figcaption>Western Wall, Jerusalem, two days before the United States moved its embassy from Tel Aviv to Jerusalem</figcaption>
   </figure>
-
 </div>
 
 <div style="margin-top: 20px;">
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 9194.JPG" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 9194.JPG" alt="Norway" style="width: 100%; border-radius: 8px;">
     <figcaption>Sommarøy, Norway</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="/assets/travel/iPhone 12 9203.JPG" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/travel/iPhone 12 9203.JPG" alt="Tromso" style="width: 100%; border-radius: 8px;">
     <figcaption>Tromsø, Norway</figcaption>
   </figure>
-
 
 
 </div>
