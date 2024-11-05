@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../css/custom.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -84,7 +86,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Fred H. Li" class="md-header__button md-logo" aria-label="Fred H. Li" data-md-component="logo">
       
@@ -169,14 +173,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -288,7 +286,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -517,6 +521,30 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#more-sample-codes-from-project-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Sample Codes from Project Experience
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="More Sample Codes from Project Experience">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visit-my-github-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visit my GitHub Repositories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -587,7 +615,7 @@
 <p>Welcome to my sample codes page! Here you'll find a collection of code snippets and projects that showcase my technical skills.</p>
 <p>Feel free to explore and learn from these implementations. Each piece of code is documented to help you understand the underlying concepts and methodologies.</p>
 <h2 id="sample-code-1"><strong>Sample Code 1</strong></h2>
-<h3 id="text-based-analysis-of-novel-dataset"><a href="../text-based-codes/">Text-based Analysis of Novel Dataset</a></h3>
+<h3 id="text-based-analysis-of-novel-dataset"><a href="cleanse_tb/">Text-based Analysis of Novel Dataset</a></h3>
 <p>This Python script is a comprehensive text analysis tool designed for processing and analyzing a novel congressional hearing dataset. The code implements multiple natural language processing techniques for analyzing complex document structures and congressional discussions.</p>
 <ul>
 <li><strong>Text Analysis</strong>: Advanced NLP techniques and document processing</li>
@@ -598,7 +626,7 @@
 <li><strong>Document Parsing</strong>: Complex structure analysis and text preprocessing</li>
 </ul>
 <h2 id="sample-code-2"><strong>Sample Code 2</strong></h2>
-<h3 id="tf-idf-matching"><a href="../tfidf-sample/">TF-IDF Matching</a></h3>
+<h3 id="tf-idf-matching"><a href="tfidf/">TF-IDF Matching</a></h3>
 <p>This Python script demonstrates text similarity matching using TF-IDF (<em>Term Frequency-Inverse Document Frequency</em>) vectorization and cosine similarity. The code implements efficient blocking and matching functions for comparing large sets of company names or similar text data.</p>
 <ul>
 <li><strong>Text Processing</strong>: N-gram generation and tokenization</li>
@@ -607,7 +635,7 @@
 <li><strong>Efficient Blocking</strong>: Strategic data partitioning for large datasets</li>
 </ul>
 <h2 id="sample-code-3"><strong>Sample Code 3</strong></h2>
-<h3 id="selenium-notion-pdf-scraper"><a href="../notion-sample/">Selenium-Notion PDF Scraper</a></h3>
+<h3 id="selenium-notion-pdf-scraper"><a href="notion_selenium/">Selenium-Notion PDF Scraper</a></h3>
 <p>This Python script is a comprehensive automation toolkit that integrates with Notion API and web automation using Selenium. It includes utilities for PDF handling, text manipulation, and web scraping. Key features:</p>
 <ul>
 <li><strong>Notion API integration</strong> for content management</li>
@@ -616,10 +644,8 @@
 <li><strong>Text parsing</strong> and formatting</li>
 <li><strong>Automated web content extraction</strong></li>
 </ul>
-<!-- ## **Sample Code 4**
-### [Factor Analysis of ETFs Using Bayesian Statistics and MCMC Regression](mcmc.md)
-
-In this individual practical project, I analyzed the decade-long performance of Vanguard ETFs using Bayesian methods and MCMC regression. The project aimed to evaluate CAPM, FF3, FF5, and FF6 models to identify the most effective model for factor-based pricing analysis. By employing the Chib and Zeng method, I selected predictive risk factors from six options, streamlining the analysis by focusing on essential factors. Additionally, I enhanced factor models with characteristics-based analysis to understand the impact of ETF characteristics on returns, comparing linear slope factors. The project involved managing complex datasets with R programming to ensure efficient data manipulation and preparation for comprehensive model analysis. --></div>
+<h2 id="more-sample-codes-from-project-experience"><strong>More Sample Codes from <a href="../projects/">Project Experience</a></strong></h2>
+<h3 id="visit-my-github-repositories"><a href="https://github.com/fredhli?tab=repositories" target="_blank">Visit my GitHub Repositories</a></h3></div>
 
 
 
@@ -642,7 +668,7 @@ In this individual practical project, I analyzed the decade-long performance of 
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 2, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 5, 2024</span>
   </span>
 
     
@@ -725,7 +751,7 @@ In this individual practical project, I analyzed the decade-long performance of 
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2024 Fred H. Li
+      Copyright &copy; 2024 Fred Houze Li
     </div>
   
   
@@ -774,7 +800,7 @@ In this individual practical project, I analyzed the decade-long performance of 
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.footer", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.process"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.footer", "navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.process"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>

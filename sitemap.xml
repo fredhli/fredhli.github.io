@@ -2,46 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://fredhli.github.io/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
          <loc>https://fredhli.github.io/cv/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
-         <loc>https://fredhli.github.io/mcmc/</loc>
-         <lastmod>2024-11-03</lastmod>
-    </url>
-    <url>
-         <loc>https://fredhli.github.io/notion-sample/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <loc>https://fredhli.github.io/gallery_conf/</loc>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
          <loc>https://fredhli.github.io/personal/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
          <loc>https://fredhli.github.io/projects/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
          <loc>https://fredhli.github.io/research_experience/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
          <loc>https://fredhli.github.io/sample_codes/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
-         <loc>https://fredhli.github.io/text-based-codes/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <loc>https://fredhli.github.io/assets/plots/budget/</loc>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
-         <loc>https://fredhli.github.io/tfidf-sample/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <loc>https://fredhli.github.io/assets/sample_codes/%23%20import%20matplotlib/</loc>
+         <lastmod>2024-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://fredhli.github.io/examples/cv_info/</loc>
+         <lastmod>2024-11-05</lastmod>
     </url>
     <url>
          <loc>https://fredhli.github.io/generated/gallery/</loc>
-         <lastmod>2024-11-03</lastmod>
+         <lastmod>2024-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://fredhli.github.io/generated/gallery/test/</loc>
+         <lastmod>2024-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://fredhli.github.io/sample_codes/cleanse_tb/</loc>
+         <lastmod>2024-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://fredhli.github.io/sample_codes/notion_selenium/</loc>
+         <lastmod>2024-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://fredhli.github.io/sample_codes/tfidf/</loc>
+         <lastmod>2024-11-05</lastmod>
     </url>
 </urlset>

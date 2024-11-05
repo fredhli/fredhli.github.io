@@ -46,6 +46,8 @@
       
     
     
+      <link rel="stylesheet" href="css/custom.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -82,7 +84,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="." title="Fred H. Li" class="md-header__button md-logo" aria-label="Fred H. Li" data-md-component="logo">
       
@@ -167,14 +171,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -286,7 +284,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -529,10 +533,12 @@
 
 <div><h1 id="fred-houze-li"><strong>Fred</strong> Houze Li</h1>
 <p><img align="left" alt="Headshot" src="assets/photo_300px.jpg" style="margin-right: 60px"></p>
+<!-- ![Headshot](assets/headshot_300px.png){align="left" style="margin-right: 60px"} -->
+
 <h3 id="lee-hou-tse">李厚泽  <span style="font-size: smaller;"> (Lee-Hou-Tse) </span></h3>
-<p>Welcome to my personal website! I am <strong>Fred</strong>, currently pursuing a Master's degree in Quantitative Finance at Washington University in St. Louis (WashU). Prior to that, I had a background in in Economics and Finance from The University of Hong Kong (HKU).</p>
+<p>Welcome to my personal website! I am <strong>Fred</strong>, currently pursuing a Master's degree in Quantitative Finance at Washington University in St. Louis (WashU). Prior to that, I had a background in in Economics and Finance from The University of Hong Kong (HKU). You can connect my <a href="https://www.linkedin.com/in/fredhli">Linkedin</a>, or directly reach me at <a href="mailto:fredhli@outlook.com">fredhli@outlook.com</a>.</p>
 <p>I am passionate about data-driven financial analysis, quantitative capital market research, and integrating quantitative methods into political research. My interest spans programming, machine learning, and traditional financial tools.</p>
-<p>Feel free to explore my <a href="projects/"><strong>Projects</strong></a>, view my <a href="cv/"><strong>Resume</strong></a>, check my <a href="sample_codes/"><strong>Sample Codes</strong></a>, or learn more about my <a href="personal/"><strong>Personal Life</strong></a> – including my travel photography collection and my cat "小i" (Little-i)!</p>
+<p>Feel free to explore my <a href="projects/"><strong>Projects</strong></a> and <a href="research_experience/"><strong>Research Experience</strong></a>, view my <a href="cv/"><strong>CV</strong></a>, check my <a href="sample_codes/"><strong>Sample Codes</strong></a>, or learn more about my <a href="personal/"><strong>Personal Life</strong></a> – including my travel photography collection and my cat "小i" (Little-i)!</p>
 <h2 id="news"><strong>News</strong></h2>
 <ul>
 <li><strong>November 1, 2024</strong>: Welcome to my new website!</li>
@@ -559,7 +565,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 3, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 5, 2024</span>
   </span>
 
     
@@ -626,7 +632,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2024 Fred H. Li
+      Copyright &copy; 2024 Fred Houze Li
     </div>
   
   
@@ -675,7 +681,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate", "navigation.footer", "navigation.tabs", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.process"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate", "navigation.footer", "navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.process"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
