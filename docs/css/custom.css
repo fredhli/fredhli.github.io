@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+
+    /* 针对手机端的样式 */
+    .md-nav {
+        font-size: 16px;
+    }
+
+    .md-main__inner {
+        padding: 10px;
+    }
+
+    .md-content {
+        line-height: 1.6;
+        font-size: 16px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .fixed-photo {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}

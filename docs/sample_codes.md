@@ -7,8 +7,9 @@ Welcome to my sample codes page! Here you'll find a collection of code snippets 
 
 Feel free to explore and learn from these implementations. Each piece of code is documented to help you understand the underlying concepts and methodologies.
 
+
 ## **Sample Code 1**
-### [Text-based Analysis of Novel Dataset](text-based-codes.md)
+### [Text-based Analysis of Novel Dataset](sample_codes/cleanse_tb.md)
 This Python script is a comprehensive text analysis tool designed for processing and analyzing a novel congressional hearing dataset. The code implements multiple natural language processing techniques for analyzing complex document structures and congressional discussions.
 
 - **Text Analysis**: Advanced NLP techniques and document processing
@@ -19,7 +20,7 @@ This Python script is a comprehensive text analysis tool designed for processing
 - **Document Parsing**: Complex structure analysis and text preprocessing
 
 ## **Sample Code 2**
-### [TF-IDF Matching](tfidf-sample.md)
+### [TF-IDF Matching](sample_codes/tfidf.md)
 This Python script demonstrates text similarity matching using TF-IDF (*Term Frequency-Inverse Document Frequency*) vectorization and cosine similarity. The code implements efficient blocking and matching functions for comparing large sets of company names or similar text data.
 
 - **Text Processing**: N-gram generation and tokenization
@@ -27,9 +28,8 @@ This Python script demonstrates text similarity matching using TF-IDF (*Term Fre
 - **TF-IDF Vectorization**: Document feature extraction
 - **Efficient Blocking**: Strategic data partitioning for large datasets
 
-
 ## **Sample Code 3**
-### [Selenium-Notion PDF Scraper](notion-sample.md)
+### [Selenium-Notion PDF Scraper](sample_codes/notion_selenium.md)
 
 This Python script is a comprehensive automation toolkit that integrates with Notion API and web automation using Selenium. It includes utilities for PDF handling, text manipulation, and web scraping. Key features:
 
@@ -39,7 +39,6 @@ This Python script is a comprehensive automation toolkit that integrates with No
 - **Text parsing** and formatting
 - **Automated web content extraction**
 
-<!-- ## **Sample Code 4**
-### [Factor Analysis of ETFs Using Bayesian Statistics and MCMC Regression](mcmc.md)
+## **More Sample Codes from [Project Experience](projects.md)**
 
-In this individual practical project, I analyzed the decade-long performance of Vanguard ETFs using Bayesian methods and MCMC regression. The project aimed to evaluate CAPM, FF3, FF5, and FF6 models to identify the most effective model for factor-based pricing analysis. By employing the Chib and Zeng method, I selected predictive risk factors from six options, streamlining the analysis by focusing on essential factors. Additionally, I enhanced factor models with characteristics-based analysis to understand the impact of ETF characteristics on returns, comparing linear slope factors. The project involved managing complex datasets with R programming to ensure efficient data manipulation and preparation for comprehensive model analysis. -->
+### <a href="https://github.com/fredhli?tab=repositories" target="_blank">Visit my GitHub Repositories</a>
