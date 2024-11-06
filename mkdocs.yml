@@ -31,9 +31,8 @@ nav:
   - CV: cv.md
   - Personal: personal.md
   # - '<span style="margin-right: 0px;"></span>': "#"  # 生成不可见的占位符
-  # - '<i class="fa-regular fa-envelope"></i>': mailto:fredhli@outlook.com
-  # - '<i class="fa-brands fa-linkedin"></i>': https://www.linkedin.com/in/fredhli/
-  # - '<i class="fa-brands fa-github"></i>': https://www.github.com/fredhli
+  - '&nbsp&nbsp<i class="fa-brands fa-linkedin"></i>': https://www.linkedin.com/in/fredhli/
+  - '<i class="fa-brands fa-github"></i>': https://www.github.com/fredhli
 
 
 markdown_extensions:
