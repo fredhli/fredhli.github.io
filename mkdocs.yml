@@ -30,6 +30,11 @@ nav:
   - Sample Codes: sample_codes.md
   - CV: cv.md
   - Personal: personal.md
+  # - '<span style="margin-right: 0px;"></span>': "#"  # 生成不可见的占位符
+  # - '<i class="fa-regular fa-envelope"></i>': mailto:fredhli@outlook.com
+  # - '<i class="fa-brands fa-linkedin"></i>': https://www.linkedin.com/in/fredhli/
+  # - '<i class="fa-brands fa-github"></i>': https://www.github.com/fredhli
+
 
 markdown_extensions:
   - attr_list
@@ -69,6 +74,7 @@ extra_javascript:
   - main.js
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js
 
 extra_css:
   - css/custom.css
