@@ -29,9 +29,9 @@ nav:
   - Research Experience: research_experience.md
   - Sample Codes: sample_codes.md
   - CV: cv.md
-  - Personal: personal.md
+  - Personal&nbsp&nbsp: personal.md
   # - '<span style="margin-right: 0px;"></span>': "#"  # 生成不可见的占位符
-  - '&nbsp&nbsp<i class="fa-brands fa-linkedin"></i>': https://www.linkedin.com/in/fredhli/
+  - '<i class="fa-brands fa-linkedin"></i>': https://www.linkedin.com/in/fredhli/
   - '<i class="fa-brands fa-github"></i>': https://www.github.com/fredhli
 
 
