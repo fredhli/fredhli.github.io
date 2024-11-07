@@ -25,24 +25,25 @@ Due to confidentiality, the labels are redacted, but the trends corresponding to
 
 </div>
 
-
 ## **The Casual Impact of Fiscal Shock**
 
 This research investigates how government deficits and public debt levels influence asset prices and macroeconomic conditions. Using event study methodology, we analyze periods where UK budget deficit news emerged independently of economic conditions, addressing the omitted variable bias challenge (OVB). We employ **Large Language Models (LLMs)** to extract **budget surprises** from news data and examine their impact on financial markets.
 
-We obtained `q1_ratio` by utilizing an AI LLMs to assess news articles related to budget announcements. For each article, the model answered two specific questions about whether the news would cause the budget deficit to increase or decrease. The responses were categorized as `up`, `down`, or `unsure`. The `q1_ratio` is calculated as a normalized measure using the proportions of `up` and `down` responses:
+We obtained `q1_ratio` by utilizing an AI LLMs to assess news articles related to budget announcements. For each article, the model answered two specific questions about whether the news would cause the budget deficit to go up or down. The responses were categorized as `up`, `down`, or `unsure`. The `q1_ratio` is calculated as a normalized measure using the proportions of `up` and `down` responses:
 
 $$\text{q1_ratio} = \frac{\text{q1_up} - \text{q1_down}}{\text{q1_up} + \text{q1_down}}$$
 
 Then, we conducted following regression analysis:
 
 ```
-q1_ratio ~ 10.0_n_d + gbpusd_o_d + 10.0_n_d * gbpusd_o_d
+q1_ratio ~ 10.0_n_d + gbpusd_o_d + intersection
 ```
 
-- `10.0_n_d`: *change* in UK 10-year bond yield between announcement date `t+5` and `t-1`  
+- `10.0_n_d`: *change* in UK 10-year treasury yield between announcement date `t+5` and `t-1`  
 
-- `gbpusd_o_d`: *change* in GBP/USD Exchange Rate between announcement date `t+5` and `t-1`  
+- `gbpusd_o_d`: *change* in GBP/USD Exchange Rate (Open) between announcement date `t+5` and `t-1` 
+
+- `intersection`: `10.0_n_d * gbpusd_o_d`, an interaction term that captures how changes in bond yields and exchange rates may amplify or mitigate each other's effects on fiscal impact. This helps identify potential non-linear relationships and interdependencies between these key financial variables.
 
 Here are the preliminary regression results:
 
@@ -64,7 +65,7 @@ Covariance Type:            nonrobust
 const           0.0448      0.020      2.254      0.027*      0.005       0.084
 q1_ratio        0.1729      0.047      3.643      0.001***    0.078       0.268
 gbpusd_o_d     -3.5446      0.638     -5.554      0.000***   -4.818      -2.272
-interaction    -6.6575      1.594     -4.177      0.000***   -9.837      -3.478
+intersection   -6.6575      1.594     -4.177      0.000***   -9.837      -3.478
 ===============================================================================
 Omnibus:                        0.374    Durbin-Watson:                   1.495
 Prob(Omnibus):                  0.829    Jarque-Bera (JB):                0.182
@@ -73,6 +74,6 @@ Kurtosis:                       3.021    Cond. No.                         114.
 ===============================================================================
 ```
 
-The regression results indicate a **significant positive relationship** between `q1_ratio` and the change in UK ten-year government bond yields (`10.0_n_d`). Specifically, a higher `q1_ratio` — implying **stronger public expectation of an increasing budget deficit** — is associated with an **increase in bond yields**. The coefficient for `q1_ratio` is positive and statistically significant at the **0.1% level**. Additionally, the negative coefficients for the change in the GBP/USD exchange rate (`gbpusd_o_d`) and the interaction term suggest that currency appreciation and its interplay with budget expectations also influence bond yields. The regression model explains approximately **47% of the variance** (`R squared`) in the change in bond yields.
+The regression results indicate a **significant positive relationship** between `q1_ratio` and the change in UK ten-year government bond yields (`10.0_n_d`). Specifically, a higher `q1_ratio` — implying **stronger public expectation of an increasing budget deficit** — is associated with an **increase in bond yields**. The coefficient for `q1_ratio` is positive and statistically significant at the **0.1% level**. Additionally, the negative coefficients for the change in the GBP/USD exchange rate (`gbpusd_o_d`) and the intersection term suggest that currency appreciation and its interplay with budget expectations also influence bond yields. The regression model explains approximately **47% of the variance** (`R-squared`) in the change in bond yields.
 
 These preliminary findings support the hypothesis that anticipated fiscal expansions lead investors to demand higher yields on government bonds, reflecting the pricing-in of budget deficit expectations into asset prices.
