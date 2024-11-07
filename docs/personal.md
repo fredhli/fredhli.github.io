@@ -3,6 +3,7 @@ hide:
   - navigation
 ---
 # **Personal**
+
 ## **Photo Collection**
 
 <div class="single-picture-container">
@@ -11,7 +12,6 @@ hide:
     <figcaption>Seine River, Paris, France</figcaption>
   </figure>
 </div>
-
 
 
 <div class="photo-grid">
@@ -48,8 +48,8 @@ hide:
         <figcaption>Istanbul, Türkiye</figcaption>
     </figure>
     <figure>
-        <img src="/assets/travel/Photo May 30 2023, 14 49 02.jpg" alt="Chiang Mai">
-        <figcaption>Chiang Mai, Thailand</figcaption>
+        <img src="/assets/travel/Photo May 30 2023, 14 49 02.jpg" alt="Phuket">
+        <figcaption>Phuket, Thailand</figcaption>
     </figure>
     <figure>
         <img src="/assets/travel/Photo Nov 02 2024, 13 06 54.jpg" alt="Shenzhen">

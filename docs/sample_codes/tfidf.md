@@ -3,6 +3,10 @@ hide:
   - navigation
 ---
 # **Sample Code 2**
+[Return to Sample Codes](../sample_codes.md)
+
+## **TF-IDF Matching**
+
 This Python code demonstrates text similarity matching using TF-IDF (*Term Frequency-Inverse Document Frequency*) vectorization and cosine similarity. The code implements efficient blocking and matching functions for comparing large sets of company names or similar text data.
 
 - **Text Processing**: N-gram generation and tokenization
@@ -257,3 +261,4 @@ def run_blocking_and_matching(output_dir, data_dir, source_path, target_path, te
     
     return 'completed'
 ```
+[Return to Sample Codes](../sample_codes.md)

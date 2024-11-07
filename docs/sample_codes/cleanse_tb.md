@@ -3,6 +3,7 @@ hide:
   - navigation
 ---
 # **Sample Code 1**
+[Return to Sample Codes](../sample_codes.md)
 ## **Text-based Analysis of Novel Dataset**
 This Python script is a comprehensive text analysis tool designed for processing and analyzing congressional hearing transcripts. It combines multiple natural language processing techniques, including sentiment analysis, OCR error correction, speaker identification, and committee member matching. The script utilizes various libraries such as spaCy, pandas, and the Hugging Face transformers library to handle tasks ranging from basic text preprocessing to advanced entity recognition. Key features include the ability to parse complex document structures, match speakers with committee members, correct OCR errors, and analyze sentiment in congressional discussions.
 
@@ -1526,3 +1527,5 @@ def spell_check(text, spell):
     return len(unknown_words), total_count, short_word_count
 
 ```
+
+[Return to Sample Codes](../sample_codes.md)

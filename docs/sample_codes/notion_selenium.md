@@ -3,6 +3,9 @@ hide:
   - navigation
 ---
 # **Sample Code 3**
+[Return to Sample Codes](../sample_codes.md)
+## **Selenium-Notion PDF Scraper**
+
 
 This Python script is a comprehensive automation toolkit that integrates with Notion API and web automation using Selenium. It includes utilities for PDF handling, text manipulation, and web scraping. Key features:
 
@@ -330,3 +333,4 @@ def update_block_content_2(block_id, new_text):
     print(f"Updated block {block_id} with new text.")
     time.sleep(1)
 ```
+[Return to Sample Codes](../sample_codes.md)

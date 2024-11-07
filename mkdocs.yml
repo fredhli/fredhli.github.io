@@ -57,6 +57,7 @@ plugins:
   - mkdocs-jupyter
 
 extra:
+  cache_control: no-cache
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/fredhli
@@ -66,7 +67,6 @@ extra:
       name: LinkedIn
     - icon: fontawesome/solid/envelope
       link: mailto:<fredhli@outlook.com>
-
 
 
 extra_javascript:
