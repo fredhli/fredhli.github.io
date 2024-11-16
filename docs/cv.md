@@ -7,4 +7,4 @@ hide:
 If not loaded properly, you can also download a PDF copy of my CV [here](assets/resume.pdf).
 </span>
 
-<iframe src="/assets/resume.pdf" width="100%" height="1320px" style="border:none;"></iframe>
+<iframe src="/assets/Fred_H_Li_CV.pdf" width="100%" height="1320px" style="border:none;"></iframe>
