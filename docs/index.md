@@ -13,7 +13,7 @@ Welcome to my personal website! I am **Fred**, currently pursuing a Master's deg
 
 I am passionate about data-driven financial analysis, quantitative capital market research, and integrating quantitative methods into political research. My interest spans programming, machine learning, and traditional financial tools.
 
-Feel free to explore my [**Projects**](projects.md) and [**Research Experience**](research_experience.md), view my [**CV**](cv.pdf), check my [**Sample Codes**](sample_codes.md), or learn more about my [**Personal Life**](personal.md) – including my travel photography collection and my cat "小i" (Little-i)!
+Feel free to explore my [**Projects**](projects.md) and [**Research Experience**](research_experience.md), view my [**CV**](cv.md), check my [**Sample Codes**](sample_codes.md), or learn more about my [**Personal Life**](personal.md) – including my travel photography collection and my cat "小i" (Little-i)!
 
 ## **News**
 - **November 1, 2024**: Welcome to my new website!
