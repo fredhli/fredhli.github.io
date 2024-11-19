@@ -50,6 +50,7 @@ This project automates the process of using AI API to generate well-organized, h
 ### Features
 - **CV Management**: Store and manage multiple versions of your CV.
 - **JD Analysis**: Extract key requirements and skills from job descriptions.
+- **ATS Score Estimation**: Estimates the Applicant Tracking System (ATS) score of your CV against the job description.
 - **Company Address Search Up**: Use Google Map API to automate the company address hunt process.
 - **CV-JD Matching**: AI-powered matching of CV versions to job requirements.
 - **Cover Letter Generation**: Automated creation of personalized cover letters using Notion API.
