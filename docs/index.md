@@ -4,8 +4,8 @@ hide:
 ---
 
 # **Fred** Houze Li
-![Headshot](assets/photo_300px.jpg){align="left" style="margin-right: 60px"}
-<!-- ![Headshot](assets/headshot_300px.png){align="left" style="margin-right: 60px"} -->
+<!-- ![Headshot](assets/photo_300px.jpg){align="left" style="margin-right: 60px"} -->
+![Headshot](assets/headshot_300px.png){align="left" style="margin-right: 60px"}
 
 ### 李厚泽  <span style="font-size: smaller;"> (Lee-Hou-Tse) </span>
 
