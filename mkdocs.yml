@@ -28,8 +28,8 @@ theme:
 nav:
   - Home: index.md
   - Projects: projects.md
-  # - Research Experience: research_experience.md
-  # - Sample Codes: sample_codes.md
+  - Research Experience: research_experience.md
+  - Sample Codes: sample_codes.md
   - CV: cv.md
   - Personal&nbsp&nbsp: personal.md
   - '<i class="fa-brands fa-linkedin"></i>': https://www.linkedin.com/in/fredhli/
